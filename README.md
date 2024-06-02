@@ -4,6 +4,7 @@ ssh -i "kafka-stock-market-2.pem" ec2-user@ec2-3-90-250-35.compute-1.amazonaws.c
 
 ## Installations
 wget https://downloads.apache.org/kafka/3.7.0/kafka-3.7.0-src.tgz
+<br>
 tar -xvf kafka-3.7.0-src.tgz
 
 sudo yum install java-1.8.0-openjdk
@@ -12,6 +13,7 @@ sudo yum install java-1.8.0-openjdk
 Allow all traffic from all on aws ec2 instance.
 
 sudo nano config/server.properties 
+<br>
 (change ADVERTISED_LISTENERS to public ip of the EC2 instance)
 
 ## Zookeeper
@@ -19,6 +21,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 ## Kafka Server
 export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
+<br>
 bin/kafka-server-start.sh config/server.properties
 
 ## producer-comsumer
