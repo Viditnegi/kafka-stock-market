@@ -1,4 +1,4 @@
-# Real-Time stock-market data pipeline using kafka and ASW(EC2, s3, Athena, Glue)
+# Real-Time stock-market data streaming using kafka and ASW(EC2, s3, Athena, Glue)
 
 ## Architecture
 ![Architecture](https://github.com/Viditnegi/kafka-stock-market/assets/106267998/f6d1423d-628f-46d1-ae8b-c5d32c451a69)
