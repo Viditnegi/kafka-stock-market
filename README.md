@@ -37,3 +37,16 @@ bin/kafka-topics.sh --bootstrap-server <broker-ip>:9092 --list
 bin/kafka-console-producer.sh --topic demo_test --bootstrap-server 3.90.250.35:9092
 <br>
 bin/kafka-console-consumer.sh --topic demo_test --bootstrap-server 3.90.250.35:9092
+
+## Images
+
+![image](https://github.com/Viditnegi/kafka-stock-market/assets/106267998/bc89c2d9-e8e2-4324-99eb-fced8df154d2)
+
+![image](https://github.com/Viditnegi/kafka-stock-market/assets/106267998/04893fe2-a2d6-4e63-ab7c-18902aa4f900)
+
+![image](https://github.com/Viditnegi/kafka-stock-market/assets/106267998/768e349b-82a8-4896-a8e8-b3070f35dd1c)
+
+
+
+
+
