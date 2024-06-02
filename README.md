@@ -1,5 +1,6 @@
 # Real-Time stock-market data pipeline using kafka and ASW(EC2, s3, Athena, Glue)
 
+## Access the EC2 instance.
 ssh -i "kafka-stock-market-2.pem" ec2-user@ec2-3-90-250-35.compute-1.amazonaws.com
 
 ## Installations
