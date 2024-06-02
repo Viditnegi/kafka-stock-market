@@ -38,8 +38,7 @@ bin/kafka-console-producer.sh --topic demo_test --bootstrap-server 3.90.250.35:9
 <br>
 bin/kafka-console-consumer.sh --topic demo_test --bootstrap-server 3.90.250.35:9092
 
-
-
+## Images
 
 ![image](https://github.com/Viditnegi/kafka-stock-market/assets/106267998/bc89c2d9-e8e2-4324-99eb-fced8df154d2)
 
